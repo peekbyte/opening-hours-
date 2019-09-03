@@ -1,0 +1,21 @@
+.page {
+    height: 100vh;
+    position: relative;
+    top: 0;
+    right: 0;
+    background-color: $gray-1
+}
+
+.page__contents {
+    position: absolute;
+}
+
+.page__contents--top {
+    top: 0;
+}
+
+.page__contents--middle {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
